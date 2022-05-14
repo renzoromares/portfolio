@@ -16,17 +16,17 @@ export const Profile = (props: IProfile) => {
                 <h2 className='text-[24px] text-[#273756] dark:text-[#fff] font-semibold mt-[7px] inline-block'>{name}</h2>    
 
                 <LinkSocial 
-                    link={"#"}
+                    link={"https://github.com/renzoromares"}
                     classSoc={""}
                     icon={"ri-github-fill"}
-                    text={"chrispbacon"}
+                    text={"rromares"}
                 />
 
                 <LinkSocial 
-                    link={"#"}
+                    link={"https://www.linkedin.com/in/renzoromares/"}
                     classSoc={""}
                     icon={"ri-linkedin-box-fill"}
-                    text={"chrispbacon"}
+                    text={"rromares"}
                 />
                 
             </div>

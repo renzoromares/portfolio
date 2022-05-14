@@ -16,12 +16,12 @@ export const CardFour = (props:IContent) => {
 
                     <ExpTxt 
                         TWrap={"mb-[35px]"}
-                        TCompany={"Oxford University"}
-                        TDate={"July 2018 - October 2022"}
-                        TDetails={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quae similique rem non dicta officia at voluptatem, maxime exercitationem fugit magni molestias dolor asperiores aut esse, iusto nemo quam vitae!"}
+                        TCompany={"University of San Jose - Recoletos"}
+                        TDate={"June 2016 - December 2021"}
+                        TDetails={`Bachelor of Science in Computer Engineering`}
                     />
 
-                    <ExpTxt 
+                    {/* <ExpTxt 
                         TWrap={"mb-[35px]"}
                         TCompany={"King’s College School"}
                         TDate={"June 2013 - March 2018"}
@@ -33,7 +33,7 @@ export const CardFour = (props:IContent) => {
                         TCompany={"Southbank International School"}
                         TDate={"June 2002 - Marchh 2013"}
                         TDetails={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quae similique rem non dicta officia at voluptatem, maxime exercitationem fugit magni molestias dolor asperiores aut esse, iusto nemo quam vitae!"}
-                    />
+                    /> */}
                 </div>
             </div>
         </>

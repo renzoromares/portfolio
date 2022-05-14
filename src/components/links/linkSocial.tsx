@@ -7,7 +7,7 @@ export const LinkSocial = (props: ISocials) => {
         <a 
             href={link}
             className={`text-[#888c95] relative pl-[22px] mt-[5px] block ${classSoc}`}
-            target="_blank"
+            target="_blank" rel="noreferrer"
         >
             <i className={`absolute left-0 top-[0%] translate-y-[0%] text-[#888c95] ${icon}`}></i> {text}
         </a>

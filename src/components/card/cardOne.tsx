@@ -15,7 +15,7 @@ export const CardOne = (props: IContent) => {
                     <span className='slg:mb-[10px] font-semibold text-[#848899] text-[20px] mb-[20px] block'>About</span>
 
                     <h2 className='smd:text-[40px] text-[42px] text-[#273756] dark:text-[#fff] font-bold mt-[7px] mb-[-20px] inline-block relative'>                        
-                        Chris P. Bacon                    
+                        Chris Tine                 
                         <span className='slg:hidden block absolute right-[-190px] top-[10px] px-[12px] py-[6px] rounded-[12px] text-[#fff] font-semibold text-[18px] mt-[2px]  dev'>Software Engineer</span>
                     </h2>
 
@@ -23,20 +23,22 @@ export const CardOne = (props: IContent) => {
 
                     <div className="slg:mt-[15px] flex flex-wrap mt-[10px]">
                         <LinkSocial 
-                            link={"#"}
+                            link={"https://github.com/renzoromares"}
                             classSoc={"mr-[18px]"}
                             icon={"ri-github-fill"}
-                            text={"chrispbacon"}
+                            text={"rromares"}
                         />
 
                         <LinkSocial 
-                            link={"#"}
+                            link={"https://www.linkedin.com/in/renzoromares/"}
                             classSoc={""}
                             icon={"ri-linkedin-box-fill"}
-                            text={"chrispbacon"}
+                            text={"rromares"}
                         />   
                     </div>
-                    <p className='slg:leading-loose slg:mt-[15px] smd:text-[14px] tblg:text-[16px] text-[18px] mt-[20px] text-[#848899] dark:text-[#fff]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quae similique rem non dicta officia at voluptatem, maxime exercitationem fugit magni molestias dolor asperiores aut esse, iusto nemo quam vitae!</p>
+                    <p className='slg:leading-loose slg:mt-[15px] smd:text-[14px] tblg:text-[16px] text-[18px] mt-[20px] text-[#848899] dark:text-[#fff]'>
+                        My goal is to work for a company, build trust, gain experience and utilize my skills and computer engineering studies to the maximum.
+                    </p>
                 </div>
             </div>
         </>

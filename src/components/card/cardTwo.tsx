@@ -43,7 +43,7 @@ export const CardTwo = (props: IContent) => {
                         />
                     </div>
 
-                    <h4 className='tblg:mb-[15px] text-[16px] mt-[50px] mb-[15px] font-semibold uppercase opacity-50 tracking-wide text-[#848899] dark:text-[#fff]'>Front End</h4>
+                    <h4 className='tblg:mb-[15px] text-[16px] mt-[50px] mb-[15px] font-semibold uppercase opacity-50 tracking-wide text-[#848899] dark:text-[#fff]'>Programming Languages</h4>
 
                     <div className="tblg:ml-[10px] ml-[18px] flex items-center flex-wrap justify-start">
                         <img 

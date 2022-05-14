@@ -16,7 +16,7 @@ export const Sidebar = () => {
                 {/* f9fbfc */}
                 <Profile 
                     img={cat}
-                    name={"Chris P. Bacon"}
+                    name={"Chris Mrown"}
                 />
                 <div className="mt-[50px] mx-[30px] profile-menu">
                     <h3 className='font-medium text-[#848899] mb-[10px]'>Menu</h3>

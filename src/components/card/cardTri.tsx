@@ -15,41 +15,43 @@ export const CardTri = (props: IContent) => {
 
                     <ExpTxt 
                         TWrap={"mb-[35px]"}
-                        TCompany={"Valve"}
-                        TDate={"January 2022 - December 2022"}
-                        TDetails={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quae similique rem non dicta officia at voluptatem, maxime exercitationem fugit magni molestias dolor asperiores aut esse, iusto nemo quam vitae!"}
+                        TCompany={"Laboratory Assistant"}
+                        TDate={"June 2016 - December 2021"}
+                        TDetails=
+                        {
+                           `I was a laboratory asssistant in the University of San Jose - Recoletos Computer Engineering Laboratory.
+                            In this particular job I used to fix configure and install computers. I also trouble shoot hardware devices
+                            teach and assists students in their needs. I also keep track of items the students borrowed and prepare
+                            their equipments ahead of time. I also maintain orderleniss and cleanliness in the office.`
+                        }
                     />
 
                     <ExpTxt 
                         TWrap={"mb-[35px]"}
-                        TCompany={"Riot Games"}
-                        TDate={"January 2021 - December 2021"}
-                        TDetails={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quae similique rem non dicta officia at voluptatem, maxime exercitationem fugit magni molestias dolor asperiores aut esse, iusto nemo quam vitae!"}
+                        TCompany={"Intern"}
+                        TDate={"June 2020 - August 2020"}
+                        TDetails =
+                        {
+                            `In this project my team was able to developed a Management Information System for the University of San Jose - Recoletos Faculty.
+                             In this particular project we were able to create a system that automates and lessen the use of paper inside the said institution.`
+                        }
                     />
 
                     <ExpTxt 
                         TWrap={"mb-[35px]"}
-                        TCompany={"From Software"}
-                        TDate={"January 2020 - December 2020"}
-                        TDetails={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quae similique rem non dicta officia at voluptatem, maxime exercitationem fugit magni molestias dolor asperiores aut esse, iusto nemo quam vitae!"}
+                        TCompany={"DNA Micro Software Company Inc."}
+                        TDate={"December 2021 -  Present"}
+                        TDetails = 
+                        {
+                            `I am a Backend developer that focuses on creating reusable codes using JavaScript and NodeJS.
+                            In this experience I maintain and developed solutions that is efficient, secure and readable.`
+                        }
                     />
 
-                    <ExpTxt 
-                        TWrap={"mb-[35px]"}
-                        TCompany={"Capcom"}
-                        TDate={"January 2019 - December 2019"}
-                        TDetails={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quae similique rem non dicta officia at voluptatem, maxime exercitationem fugit magni molestias dolor asperiores aut esse, iusto nemo quam vitae!"}
-                    />
 
-                    <ExpTxt 
-                        TWrap={"mb-[15px]"}
-                        TCompany={"Bandai Namco"}
-                        TDate={"January 2018 - December 2018"}
-                        TDetails={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quae similique rem non dicta officia at voluptatem, maxime exercitationem fugit magni molestias dolor asperiores aut esse, iusto nemo quam vitae!"}
-                    />
-                    
                 </div>
             </div>
+            
         </>
     )
 }
