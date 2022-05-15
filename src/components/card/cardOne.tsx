@@ -15,7 +15,7 @@ export const CardOne = (props: IContent) => {
                     <span className='slg:mb-[10px] font-semibold text-[#848899] text-[20px] mb-[20px] block'>About</span>
 
                     <h2 className='smd:text-[40px] text-[42px] text-[#273756] dark:text-[#fff] font-bold mt-[7px] mb-[-20px] inline-block relative'>                        
-                        Chris Tine                 
+                        Renzo Romares               
                         <span className='slg:hidden block absolute right-[-190px] top-[10px] px-[12px] py-[6px] rounded-[12px] text-[#fff] font-semibold text-[18px] mt-[2px]  dev'>Software Engineer</span>
                     </h2>
 

@@ -3,6 +3,7 @@ export interface ILinks {
     classDownload?: string
     icon?: string
     text?: string
+    fileName?: string
 }
 
 export interface IProfile {

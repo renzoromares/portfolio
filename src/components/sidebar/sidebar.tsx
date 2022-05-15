@@ -5,6 +5,7 @@ import { Profile } from '../profile/profile'
 import 'remixicon/fonts/remixicon.css'
 
 import cat from "../../assets/img/cat.jpeg"
+import link from "../../assets/doc/resume.pdf"
 import bg from "../../assets/img/bg.jpg"
 import { LinkIcon } from '../links/linkIcon'
 import { LinkDownload } from '../links/linkDownload'
@@ -16,7 +17,7 @@ export const Sidebar = () => {
                 {/* f9fbfc */}
                 <Profile 
                     img={cat}
-                    name={"Chris Mrown"}
+                    name={"Renzo Romares"}
                 />
                 <div className="mt-[50px] mx-[30px] profile-menu">
                     <h3 className='font-medium text-[#848899] mb-[10px]'>Menu</h3>
@@ -49,9 +50,10 @@ export const Sidebar = () => {
 
                 <div className="mt-[187px] text-center download-cv">
                     <LinkDownload 
-                        link={"/src/assets/doc/dummy.pdf"}
+                        link={link}
                         classDownload={"my-[0] mx-[auto] w-[75%]"}
                         text={"Download CV"}
+                        fileName={"Romares.pdf"}
                     />
                 </div>
             </div>

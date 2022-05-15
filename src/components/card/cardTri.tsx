@@ -20,7 +20,7 @@ export const CardTri = (props: IContent) => {
                         TDetails=
                         {
                            `I was a laboratory asssistant in the University of San Jose - Recoletos Computer Engineering Laboratory.
-                            In this particular job I used to fix configure and install computers. I also trouble shoot hardware devices
+                            In this particular job I used to fix configure and install computers. I also trouble shoot hardware devices,
                             teach and assists students in their needs. I also keep track of items the students borrowed and prepare
                             their equipments ahead of time. I also maintain orderleniss and cleanliness in the office.`
                         }
