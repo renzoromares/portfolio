@@ -4,7 +4,7 @@ import { Profile } from '../profile/profile'
 // import { LinkDownload } from '../links/linkDownload'
 import 'remixicon/fonts/remixicon.css'
 
-import cat from "../../assets/img/cat.jpeg"
+import pp from "../../assets/img/pp.png"
 import link from "../../assets/doc/resume.pdf"
 import bg from "../../assets/img/bg.jpg"
 import { LinkIcon } from '../links/linkIcon'
@@ -16,7 +16,7 @@ export const Sidebar = () => {
             <div className="tblg:hidden bg-[#fff] dark:bg-[#101010] dark:border-[#1f1f1f] w-[15%] h-[100vh] sticky top-0 border-r border-[#efeef5] outline-none z-10 flex flex-col sidebar">
                 {/* f9fbfc */}
                 <Profile 
-                    img={cat}
+                    img={pp}
                     name={"Renzo Romares"}
                 />
                 <div className="mt-[50px] mx-[30px] profile-menu">
